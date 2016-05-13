@@ -7,7 +7,7 @@
 
     
 
-    <title>归档：2016 | 林林儿的技术博客 物联网 Java 云计算 AR/VR</title>
+    <title>Vim常用命令 | 林林儿的技术博客 物联网 Java 云计算 AR/VR</title>
     <meta name="author" content="linliner">
     
     <meta name="description" content="一直乐在追逐潮流技术的过程中。但写博客需要慢慢习惯，从今天开始吧">
@@ -15,7 +15,7 @@
     
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    
+    <meta property="og:title" content="Vim常用命令"/>
     <meta property="og:site_name" content="我思我在"/>
 
     
@@ -217,46 +217,97 @@
 
     <main>
         <div class="container main-container">
-    
-
-<nav class="page-nav hide-on-small-only">
+    <nav class="page-nav hide-on-small-only">
     <div class="nav-wrapper indigo">
-        <span class="breadcrumb">当前位置（归档）</span>
+        <span class="breadcrumb">当前位置（分类目录）</span>
+        
+            
+    
+    
+    <a class="breadcrumb" href="/categories/linux/">Linux</a><a class="breadcrumb" href="/categories/linux/shell/">Shell</a>
+
+
         
 
         
     </div>
 </nav>
 
+<article>
+    <div class="card">
+        <div class="card-content">
+            
+
+            <div class="article-title">
+                
+    
+        <h1>Vim常用命令</h1>
+    
 
 
-    <ul class="collapsible mt-0" data-collapsible="accordion">
+            </div>
+            <time class="pink-link-context" datetime="2016-05-13T18:24:29.000Z"><a href="/2016/05/linux/shell/vim常用命令/">创建于: 2016-05-14</a>
+  
+</time>
+
+            
+    <div class="tags-row">
         
+            <a href="/tags/vim/" class="chip pink lighten-1">vim</a>
         
-            <li>
-                <div class="collapsible-header active">
-                    <i class="fa fa-archive"></i>2016
-                </div>
-                <div class="collapsible-body">
-                    <div class="collection">
-                        
-                            <a href="/2016/05/linux/shell/vim常用命令/" class="collection-item grey-text text-darken-1">
-                                <time datetime="2016-05-13T18:24:29.000Z">2016-05-14</time>
-                                <span>&nbsp;&nbsp;&nbsp;</span>
-                                Vim常用命令
-                            </a>
-                        
-                            <a href="/2016/05/未归类/hexo-guide/" class="collection-item grey-text text-darken-1">
-                                <time datetime="2016-05-10T04:51:01.000Z">2016-05-10</time>
-                                <span>&nbsp;&nbsp;&nbsp;</span>
-                                Hexo Guide
-                            </a>
-                        
-                    </div>
-                </div>
-            </li>
-        
-    </ul>
+    </div>
+
+
+            <div class="toc pink-link-context hide-on-med-and-down">
+    <ol class="section table-of-contents"><li class="section table-of-contents-item section table-of-contents-level-2"><a class="section table-of-contents-link" href="#Vim工作模式"><span class="section table-of-contents-number">1.</span> <span class="section table-of-contents-text">Vim工作模式</span></a></li><li class="section table-of-contents-item section table-of-contents-level-2"><a class="section table-of-contents-link" href="#插入命令"><span class="section table-of-contents-number">2.</span> <span class="section table-of-contents-text">插入命令</span></a></li><li class="section table-of-contents-item section table-of-contents-level-2"><a class="section table-of-contents-link" href="#定位命令"><span class="section table-of-contents-number">3.</span> <span class="section table-of-contents-text">定位命令</span></a></li><li class="section table-of-contents-item section table-of-contents-level-2"><a class="section table-of-contents-link" href="#删除命令"><span class="section table-of-contents-number">4.</span> <span class="section table-of-contents-text">删除命令</span></a></li><li class="section table-of-contents-item section table-of-contents-level-2"><a class="section table-of-contents-link" href="#替换和取消命令"><span class="section table-of-contents-number">5.</span> <span class="section table-of-contents-text">替换和取消命令</span></a></li><li class="section table-of-contents-item section table-of-contents-level-2"><a class="section table-of-contents-link" href="#常用快捷键"><span class="section table-of-contents-number">6.</span> <span class="section table-of-contents-text">常用快捷键</span></a></li><li class="section table-of-contents-item section table-of-contents-level-2"><a class="section table-of-contents-link" href="#选中后的赋值粘贴"><span class="section table-of-contents-number">7.</span> <span class="section table-of-contents-text">选中后的赋值粘贴</span></a></li></ol>
+</div>
+
+
+            <div class="entry pink-link-context">
+                <h2 id="Vim工作模式"><a href="#Vim工作模式" class="headerlink" title="Vim工作模式"></a>Vim工作模式</h2><p><img src="/images/Vim常用命令.png" alt="Vim工作模式"></p>
+<a id="more"></a>
+<h2 id="插入命令"><a href="#插入命令" class="headerlink" title="插入命令"></a>插入命令</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">i    在光标前插入  </span><br><span class="line">a    在光标后插入  </span><br><span class="line">I    在当前行首插入  </span><br><span class="line">A    在当前行末尾插入  </span><br><span class="line">o    在光标当前行的下一行插入新行  </span><br><span class="line">O    在光标当前行的上一行插入新行  </span><br><span class="line">i——光标前， a——光标后， I——行首， A——行尾， o——插入下一行， O——插入上一行</span><br></pre></td></tr></table></figure>
+<h2 id="定位命令"><a href="#定位命令" class="headerlink" title="定位命令"></a>定位命令</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">:<span class="built_in">set</span> nu     显示行号  </span><br><span class="line">:<span class="built_in">set</span> nonu   取消行号  </span><br><span class="line">gg          到文本第一行  </span><br><span class="line">G           到文本最后一行  </span><br><span class="line">:n          到文本第n行</span><br></pre></td></tr></table></figure>
+<h2 id="删除命令"><a href="#删除命令" class="headerlink" title="删除命令"></a>删除命令</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">x         删除光标处字符</span><br><span class="line">nx        删除光标后n个字符</span><br><span class="line">dd        删除光标所在行。</span><br><span class="line">ndd       删除n行。</span><br><span class="line">dG        删除光标所在行到末尾行的所有内容。</span><br><span class="line">D         删除光标处到行尾的内容。</span><br><span class="line">:n1,n2d   删除n1行到n2行，:189,211d  删除189到211行。</span><br></pre></td></tr></table></figure>
+<h2 id="替换和取消命令"><a href="#替换和取消命令" class="headerlink" title="替换和取消命令"></a>替换和取消命令</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">u        undo，取消上一步操作</span><br><span class="line">Ctrl+r   redo，返回到undo之前</span><br><span class="line">r        替换光标所在处的字符</span><br><span class="line">R        从光标所在处开始替换，按Esc结束替换</span><br></pre></td></tr></table></figure>
+<h2 id="常用快捷键"><a href="#常用快捷键" class="headerlink" title="常用快捷键"></a>常用快捷键</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">shift</span> + zz      保存退出，与“:wq”作用相同</span><br></pre></td></tr></table></figure>
+<h2 id="选中后的赋值粘贴"><a href="#选中后的赋值粘贴" class="headerlink" title="选中后的赋值粘贴"></a>选中后的赋值粘贴</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">v               进入字符可视模式，可逐个字符选中</span><br><span class="line">V 或 <span class="built_in">shift</span> + v  进入行可视模式，可每次选中一整行</span><br><span class="line">ctrl + v        进入块可视模式，可每次选中块状区域</span><br><span class="line">y               复制</span><br><span class="line">p               粘贴</span><br><span class="line">d               剪切</span><br></pre></td></tr></table></figure>
+
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+    <section id="comment">
+        <div class="card">
+            <div class="card-content">
+                <!-- Duoshuo Comment BEGIN -->
+                <div class="ds-thread" data-thread-key="2016/05/linux/shell/vim常用命令/" data-title="Vim常用命令" data-url="http://blog.linliner.com/2016/05/linux/shell/vim常用命令/"></div>
+
+                <script type="text/javascript">
+                    console.log(document.querySelector('.ds-thread'));
+                    var duoshuoQuery = {
+                        short_name: 'linliner'
+                    };
+                    (function() {
+                        var ds = document.createElement('script');
+                        ds.type = 'text/javascript';
+                        ds.async = true;
+                        ds.src = (document.location.protocol == 'https:'
+                            ? 'https:'
+                            : 'http:') + '//static.duoshuo.com/embed.js';
+                        ds.charset = 'UTF-8';
+                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
+                    })();
+                </script>
+                <!-- Duoshuo Comment END -->
+            </div>
+        </div>
+    </section>
+
 
 
 </div>

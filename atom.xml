@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>我思我在</title>
+  <subtitle>林林儿的技术博客 物联网 Java 云计算 AR/VR</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://blog.linliner.com/"/>
+  <updated>2016-05-13T20:00:54.631Z</updated>
+  <id>http://blog.linliner.com/</id>
+  
+  <author>
+    <name>linliner</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Vim常用命令</title>
+    <link href="http://blog.linliner.com/2016/05/linux/shell/vim%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+    <id>http://blog.linliner.com/2016/05/linux/shell/vim常用命令/</id>
+    <published>2016-05-13T18:24:29.000Z</published>
+    <updated>2016-05-13T20:00:54.631Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;Vim工作模式&quot;&gt;&lt;a href=&quot;#Vim工作模式&quot; class=&quot;headerlink&quot; title=&quot;Vim工作模式&quot;&gt;&lt;/a&gt;Vim工作模式&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;/images/Vim常用命令.png&quot; alt=&quot;Vim工作模式&quot;&gt;&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;插入命令&quot;&gt;&lt;a href=&quot;#插入命令&quot; class=&quot;headerlink&quot; title=&quot;插入命令&quot;&gt;&lt;/a&gt;插入命令&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;i    在光标前插入  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;a    在光标后插入  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;I    在当前行首插入  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;A    在当前行末尾插入  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;o    在光标当前行的下一行插入新行  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;O    在光标当前行的上一行插入新行  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;i——光标前， a——光标后， I——行首， A——行尾， o——插入下一行， O——插入上一行&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;定位命令&quot;&gt;&lt;a href=&quot;#定位命令&quot; class=&quot;headerlink&quot; title=&quot;定位命令&quot;&gt;&lt;/a&gt;定位命令&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;:&lt;span class=&quot;built_in&quot;&gt;set&lt;/span&gt; nu     显示行号  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;:&lt;span class=&quot;built_in&quot;&gt;set&lt;/span&gt; nonu   取消行号  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;gg          到文本第一行  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;G           到文本最后一行  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;:n          到文本第n行&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;删除命令&quot;&gt;&lt;a href=&quot;#删除命令&quot; class=&quot;headerlink&quot; title=&quot;删除命令&quot;&gt;&lt;/a&gt;删除命令&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;x         删除光标处字符&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;nx        删除光标后n个字符&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;dd        删除光标所在行。&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;ndd       删除n行。&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;dG        删除光标所在行到末尾行的所有内容。&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;D         删除光标处到行尾的内容。&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;:n1,n2d   删除n1行到n2行，:189,211d  删除189到211行。&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;替换和取消命令&quot;&gt;&lt;a href=&quot;#替换和取消命令&quot; class=&quot;headerlink&quot; title=&quot;替换和取消命令&quot;&gt;&lt;/a&gt;替换和取消命令&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;u        undo，取消上一步操作&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Ctrl+r   redo，返回到undo之前&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;r        替换光标所在处的字符&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;R        从光标所在处开始替换，按Esc结束替换&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;常用快捷键&quot;&gt;&lt;a href=&quot;#常用快捷键&quot; class=&quot;headerlink&quot; title=&quot;常用快捷键&quot;&gt;&lt;/a&gt;常用快捷键&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;shift&lt;/span&gt; + zz      保存退出，与“:wq”作用相同&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;选中后的赋值粘贴&quot;&gt;&lt;a href=&quot;#选中后的赋值粘贴&quot; class=&quot;headerlink&quot; title=&quot;选中后的赋值粘贴&quot;&gt;&lt;/a&gt;选中后的赋值粘贴&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;v               进入字符可视模式，可逐个字符选中&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;V 或 &lt;span class=&quot;built_in&quot;&gt;shift&lt;/span&gt; + v  进入行可视模式，可每次选中一整行&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;ctrl + v        进入块可视模式，可每次选中块状区域&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;y               复制&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;p               粘贴&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;d               剪切&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Vim工作模式&quot;&gt;&lt;a href=&quot;#Vim工作模式&quot; class=&quot;headerlink&quot; title=&quot;Vim工作模式&quot;&gt;&lt;/a&gt;Vim工作模式&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;/images/Vim常用命令.png&quot; alt=&quot;Vim工作模式&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://blog.linliner.com/categories/linux/"/>
+    
+      <category term="Shell" scheme="http://blog.linliner.com/categories/linux/shell/"/>
+    
+    
+      <category term="vim" scheme="http://blog.linliner.com/tags/vim/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo Guide</title>
+    <link href="http://blog.linliner.com/2016/05/%E6%9C%AA%E5%BD%92%E7%B1%BB/hexo-guide/"/>
+    <id>http://blog.linliner.com/2016/05/未归类/hexo-guide/</id>
+    <published>2016-05-10T04:51:01.000Z</published>
+    <updated>2016-05-12T14:29:11.000Z</updated>
+    
+    <content type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/writing.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Writing&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Run-server&quot;&gt;&lt;a href=&quot;#Run-server&quot; class=&quot;headerlink&quot; title=&quot;Run server&quot;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/server.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Server&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Generate-static-files&quot;&gt;&lt;a href=&quot;#Generate-static-files&quot; class=&quot;headerlink&quot; title=&quot;Generate static files&quot;&gt;&lt;/a&gt;Generate static files&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/generating.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Generating&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Deploy-to-remote-sites&quot;&gt;&lt;a href=&quot;#Deploy-to-remote-sites&quot; class=&quot;headerlink&quot; title=&quot;Deploy to remote sites&quot;&gt;&lt;/a&gt;Deploy to remote sites&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/deployment.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="未归类" scheme="http://blog.linliner.com/categories/%E6%9C%AA%E5%BD%92%E7%B1%BB/"/>
+    
+    
+      <category term="Hexo" scheme="http://blog.linliner.com/tags/hexo/"/>
+    
+  </entry>
+  
+</feed>
