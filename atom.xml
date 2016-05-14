@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.linliner.com/"/>
-  <updated>2016-05-13T20:00:54.631Z</updated>
+  <updated>2016-05-14T08:02:20.803Z</updated>
   <id>http://blog.linliner.com/</id>
   
   <author>
@@ -17,12 +17,12 @@
   
   <entry>
     <title>Vim常用命令</title>
-    <link href="http://blog.linliner.com/2016/05/linux/shell/vim%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
-    <id>http://blog.linliner.com/2016/05/linux/shell/vim常用命令/</id>
+    <link href="http://blog.linliner.com/2016/05/linux/shell/vim-commands-commons/"/>
+    <id>http://blog.linliner.com/2016/05/linux/shell/vim-commands-commons/</id>
     <published>2016-05-13T18:24:29.000Z</published>
-    <updated>2016-05-13T20:00:54.631Z</updated>
+    <updated>2016-05-14T08:02:20.803Z</updated>
     
-    <content type="html">&lt;h2 id=&quot;Vim工作模式&quot;&gt;&lt;a href=&quot;#Vim工作模式&quot; class=&quot;headerlink&quot; title=&quot;Vim工作模式&quot;&gt;&lt;/a&gt;Vim工作模式&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;/images/Vim常用命令.png&quot; alt=&quot;Vim工作模式&quot;&gt;&lt;/p&gt;
+    <content type="html">&lt;h2 id=&quot;Vim工作模式&quot;&gt;&lt;a href=&quot;#Vim工作模式&quot; class=&quot;headerlink&quot; title=&quot;Vim工作模式&quot;&gt;&lt;/a&gt;Vim工作模式&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/linliner/blog.resources.1/master/2016/vim-mode.png&quot; alt=&quot;Vim工作模式&quot;&gt;&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;h2 id=&quot;插入命令&quot;&gt;&lt;a href=&quot;#插入命令&quot; class=&quot;headerlink&quot; title=&quot;插入命令&quot;&gt;&lt;/a&gt;插入命令&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;i    在光标前插入  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;a    在光标后插入  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;I    在当前行首插入  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;A    在当前行末尾插入  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;o    在光标当前行的下一行插入新行  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;O    在光标当前行的上一行插入新行  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;i——光标前， a——光标后， I——行首， A——行尾， o——插入下一行， O——插入上一行&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;h2 id=&quot;定位命令&quot;&gt;&lt;a href=&quot;#定位命令&quot; class=&quot;headerlink&quot; title=&quot;定位命令&quot;&gt;&lt;/a&gt;定位命令&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;:&lt;span class=&quot;built_in&quot;&gt;set&lt;/span&gt; nu     显示行号  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;:&lt;span class=&quot;built_in&quot;&gt;set&lt;/span&gt; nonu   取消行号  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;gg          到文本第一行  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;G           到文本最后一行  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;:n          到文本第n行&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -34,7 +34,7 @@
     
     <summary type="html">
     
-      &lt;h2 id=&quot;Vim工作模式&quot;&gt;&lt;a href=&quot;#Vim工作模式&quot; class=&quot;headerlink&quot; title=&quot;Vim工作模式&quot;&gt;&lt;/a&gt;Vim工作模式&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;/images/Vim常用命令.png&quot; alt=&quot;Vim工作模式&quot;&gt;&lt;/p&gt;
+      &lt;h2 id=&quot;Vim工作模式&quot;&gt;&lt;a href=&quot;#Vim工作模式&quot; class=&quot;headerlink&quot; title=&quot;Vim工作模式&quot;&gt;&lt;/a&gt;Vim工作模式&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/linliner/blog.resources.1/master/2016/vim-mode.png&quot; alt=&quot;Vim工作模式&quot;&gt;&lt;/p&gt;
     
     </summary>
     
